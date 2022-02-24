@@ -1,0 +1,44 @@
+
+
+.navbar {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  z-index: 1;
+  font-family: 'Noto Serif Display', serif;
+  font-style: 100;
+  background: url('assets/Picture1.png')fixed;
+  background-size: cover;
+  height: 10vh
+}
+
+.navbar-nav {
+  margin-right: auto;
+}
+
+
+
+.jumbotron {
+  background: url('assets/greenBgHero.jpg')fixed;
+  background-size: cover;
+  height: 100vh;
+  border-bottom: double 4px rgb(183, 101, 221);
+  
+}
+
+.title {
+  border-radius: 10px;
+  color: rgb(14, 10, 22);
+  
+}
+
+.about {
+  font-family: 'Noto Serif Display', serif;
+  padding: 30px;
+  color: rgb(96, 112, 141);
+  float: right;
+  height: 70vh;
+  margin-top: -40px;
+ border-image: url();
+}
+
