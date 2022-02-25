@@ -5,40 +5,95 @@
   overflow: hidden;
   width: 100%;
   z-index: 1;
-  font-family: 'Noto Serif Display', serif;
+  font-family: 'Italiana', serif;
   font-style: 100;
-  background: url('assets/Picture1.png')fixed;
-  background-size: cover;
-  height: 10vh
+  background-color:rgb(9, 58, 54) ;
+  opacity: 40%;
+  height: 10vh;
+  border-bottom: ridge gold 3.5px;
 }
 
-.navbar-nav {
-  margin-right: auto;
-}
 
 
 
 .jumbotron {
-  background: url('assets/greenBgHero.jpg')fixed;
+  background: url('assets/marbjtron.jpeg')fixed;
   background-size: cover;
-  height: 100vh;
-  border-bottom: double 4px rgb(183, 101, 221);
+  height: fit-content;
+  border-bottom: ridge rgb(124, 107, 9) 3.5px;
   
 }
-
-.title {
-  border-radius: 10px;
-  color: rgb(14, 10, 22);
+.overlay {
   
+  background-color:rgb(6, 59, 55) ;
+  text-align: center;
+  height: fit-content;
+  z-index: 2;
+  float: right;
+  font-family: 'Italiana', serif;
+  color: rgb(196, 128, 65);
+  
+}
+.title {
+  color: rgb(196, 128, 65);
+  font-family: 'Italiana', serif;
+  height: fit-content;
+  background-color:rgb(6, 59, 55) ;;
+  text-align: center;
+  float: left;
+}
+.name {
+  color: rgb(99, 117, 111);
+}
+
+.becca {
+  border: ridge rgb(124, 107, 9) 3.5px;
 }
 
 .about {
-  font-family: 'Noto Serif Display', serif;
+  font-family: 'Italiana', serif;
   padding: 30px;
-  color: rgb(96, 112, 141);
+  color: rgb(0, 20, 19);
   float: right;
-  height: 70vh;
-  margin-top: -40px;
- border-image: url();
+  height: fit-content;
+  background: url('assets/abtBkg.jpg')fixed;
+  background-size: cover;
+  z-index: 1;
+  margin-bottom: 10vh;
+
+}
+
+.abtbdy {
+  background-color: rgb(6, 59, 55);
+  color: rgb(196, 128, 65);
+  border: ridge rgb(124, 107, 9) 3.5px;
+  padding: 20%;
+}
+
+.acq {
+  color: rgb(99, 117, 111);
+}
+
+.acqList {
+  float: left;
+}
+
+.exEd {
+  margin-top: 23%;
+  background: url('assets/marbjtron.jpeg')fixed;
+  background-size: cover;
+  border: ridge rgb(124, 107, 9) 3.5px;
+}
+
+edCard {
+  background: url('assets/marbjtron.jpeg')fixed;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
 }
 
