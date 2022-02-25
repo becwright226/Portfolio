@@ -92,9 +92,6 @@
  
 }
 
-edCard {
-  
-}
 .uniHead {
   padding-top: 10px;
   border-top:ridge rgb(23, 39, 61) 3.5px
@@ -115,6 +112,7 @@ edCard {
   font-family: 'Italiana',serif;
   background: url('assets/abtBkg.jpg')fixed;
   background-size: cover;
+  background-color: rgb(196, 128, 65);
 
 }
 
