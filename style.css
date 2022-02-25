@@ -58,14 +58,13 @@
   height: fit-content;
   background: url('assets/abtBkg.jpg')fixed;
   background-size: cover;
-  z-index: 1;
-  margin-bottom: 10vh;
+  position: relative;
 
 }
 
 .abtbdy {
   background-color: rgb(6, 59, 55);
-  color: rgb(196, 128, 65);
+  color: rgb(99, 117, 111);
   border: ridge rgb(124, 107, 9) 3.5px;
   padding: 20%;
 }
@@ -79,15 +78,24 @@
 }
 
 .exEd {
-  margin-top: 23%;
+  margin-top: 80vh;
   background: url('assets/marbjtron.jpeg')fixed;
   background-size: cover;
   border: ridge rgb(124, 107, 9) 3.5px;
+  position: relative;
+  font-family: 'Italiana', serif;
+  text-align: center;
 }
 
 edCard {
-  background: url('assets/marbjtron.jpeg')fixed;
+  
 }
+.uniHead {
+  padding-top: 10px;
+  border-top:ridge rgb(23, 39, 61) 3.5px
+}
+
+
 
 ul {
   list-style: none;
