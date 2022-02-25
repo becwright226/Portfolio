@@ -7,7 +7,7 @@
   z-index: 1;
   font-family: 'Italiana', serif;
   font-style: 100;
-  background-color:rgb(9, 58, 54) ;
+  background-color:rgb(6, 59, 55) ;
   opacity: 40%;
   height: 10vh;
   border-bottom: ridge gold 3.5px;
@@ -100,8 +100,26 @@ edCard {
   border-top:ridge rgb(23, 39, 61) 3.5px
 }
 
-.foot {
-  z-index: 3;
+.proj {
+  color: rgb(99, 117, 111)
+}
+
+.port {
+  border: ridge rgb(124, 107, 9) 3.5px;
+  color:rgb(124, 107, 9) ;
+  font-family: 'Italiana', serif;
+}
+.contact {
+  color: rgb(6, 51, 36);
+  font-weight: 400;
+  font-family: 'Italiana',serif;
+  background: url('assets/abtBkg.jpg')fixed;
+  background-size: cover;
+
+}
+
+.footerFont {
+  font-family: 'Italiana', serif;
 }
 
 ul {
